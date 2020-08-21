@@ -1,3 +1,25 @@
 xclip
-lm-sensors
+
+lm-sensors:
+```
+sudo apt-get install lm-sensors
+sudo sensors-detect
+sensors
+```
+
+emacs:
+```
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt-get update sudo apt install emacs26
+```
+
+spacemacs:
+```
+https://www.spacemacs.org/
+```
+
+ibus-bamboo:
+```
+https://github.com/BambooEngine/ibus-bamboo
+```
 
