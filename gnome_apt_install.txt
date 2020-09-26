@@ -23,3 +23,7 @@ ibus-bamboo:
 https://github.com/BambooEngine/ibus-bamboo
 ```
 
+Neovim:
+```
+sudo apt install neovim
+```
