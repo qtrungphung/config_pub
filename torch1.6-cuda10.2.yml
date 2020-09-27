@@ -1,4 +1,4 @@
-name: base
+name: torch1.6-cuda10.2
 channels:
   - pytorch
   - defaults
@@ -58,4 +58,4 @@ dependencies:
   - yaml=0.1.7=had09818_2
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.3.7=h0b5b093_0
-prefix: /opt/conda
+prefix: /home/qtrungphung/anaconda3
