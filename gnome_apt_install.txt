@@ -1,29 +1,34 @@
-xclip
+# List of apps installed on Ubuntu Gnome
 
-lm-sensors:
+## xclip
+
+## lm-sensors:
 ```
 sudo apt-get install lm-sensors
 sudo sensors-detect
 sensors
 ```
 
-emacs:
+## emacs:
 ```
 sudo add-apt-repository ppa:kelleyk/emacs
-sudo apt-get update sudo apt install emacs26
+sudo apt-get update
+sudo apt install emacs26
 ```
 
-spacemacs:
+## spacemacs:
 ```
 https://www.spacemacs.org/
 ```
 
-ibus-bamboo:
+## ibus-bamboo:
 ```
 https://github.com/BambooEngine/ibus-bamboo
 ```
 
-Neovim:
-```
-sudo apt install neovim
-```
+## Neovim:
+
+1. Download with `sudo apt install neovim`
+2. Install [vim-plug](https://github.com/junegunn/vim-plug)
+3. Put neovim init file `init.vim` to `~/.config/nvim/init.vim`
+4. You might have to install nodejs `sudo apt install nodejs`
