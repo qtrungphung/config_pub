@@ -10,16 +10,22 @@ sensors
 ```
 
 ## emacs:
-```
-sudo add-apt-repository ppa:kelleyk/emacs
-sudo apt-get update
-sudo apt install emacs26
-```
-
-## spacemacs:
-```
-https://www.spacemacs.org/
-```
+1. install
+   ```
+   sudo add-apt-repository ppa:kelleyk/emacs
+   sudo apt-get update
+   sudo apt install emacs26
+   ```
+2. spacemacs:
+   ```
+   https://www.spacemacs.org/
+   ```
+3. dotfile config:
+   - copy .spacemacs to ~/.spacemacs
+3. LSP mode:
+   - switch to dev branch: `git checkout develop` in ~/.emacs.d folder
+   - https://emacs-lsp.github.io/lsp-mode/page/installation/
+   - https://github.com/fredcamps/lsp-jedi
 
 ## ibus-bamboo:
 ```
