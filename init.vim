@@ -11,23 +11,13 @@ call plug#begin(stdpath('data') . 'plugged')
 " Coc Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" ncm2 Completion
-Plug 'roxma/nvim-yarp'
-Plug 'ncm2/ncm2'
-" Fast python completion (use ncm2 if you want type info or snippet support)
-Plug 'HansPinckaers/ncm2-jedi'
-" Words in buffer completion
-Plug 'ncm2/ncm2-bufword'
-" Filepath completion
-Plug 'ncm2/ncm2-path'
-
 Plug 'gruvbox-community/gruvbox'    " Colorscheme
 Plug 'tpope/vim-fugitive'    " Git in Vim
 Plug 'vim-utils/vim-man'    " View man pages in Vim
 
 Plug 'mbbill/undotree'    " Undo tree
 Plug 'Vimjas/vim-python-pep8-indent'  "better indenting for python
-Plug 'w0rp/ale'    " python linter for PyTorch
+" Plug 'w0rp/ale'    " python linter for PyTorch
 
 call plug#end()
 
