@@ -41,4 +41,8 @@ https://github.com/BambooEngine/ibus-bamboo
    ```curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
    ```
    then install nodejs with `nvm install node`
-5. In nvim: install coc-python
+5. Install coc.nvim
+   - already in init.vim. in vim type `:PlugInstall`
+6. Configure coc.nvim
+   - install coc-python
+   - install coc-jedi, this is autocompletion for PyTorch
