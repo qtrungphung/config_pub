@@ -5,6 +5,8 @@ channels:
 dependencies:
   - _anaconda_depends=2020.07=py37_0
   - _libgcc_mutex=0.1=main
+  - absl-py=0.10.0=py37_0
+  - aiohttp=3.6.2=py37h7b6447c_0
   - alabaster=0.7.12=py37_0
   - anaconda=custom=py37_1
   - anaconda-client=1.7.2=py37_0
@@ -14,6 +16,7 @@ dependencies:
   - asn1crypto=1.2.0=py37_0
   - astroid=2.4.2=py37_0
   - astropy=4.0.1.post1=py37h7b6447c_1
+  - async-timeout=3.0.1=py37_0
   - async_generator=1.10=py37h28b3542_0
   - atomicwrites=1.4.0=py_0
   - attrs=20.2.0=py_0
@@ -27,13 +30,16 @@ dependencies:
   - bkcharts=0.2=py37_0
   - blas=1.0=mkl
   - bleach=3.2.1=py_0
+  - blinker=1.4=py37_0
   - blosc=1.16.3=hd408876_0
   - bokeh=2.2.1=py37_0
   - boto=2.49.0=py37_0
   - bottleneck=1.3.2=py37heb32a55_1
   - brotlipy=0.7.0=py37h7b6447c_1000
   - bzip2=1.0.8=h7b6447c_0
+  - c-ares=1.16.1=h7b6447c_0
   - ca-certificates=2020.7.22=0
+  - cachetools=4.1.1=py_0
   - cairo=1.14.12=h8948797_3
   - certifi=2020.6.20=py37_0
   - cffi=1.13.0=py37h2e261b9_0
@@ -77,8 +83,11 @@ dependencies:
   - glob2=0.7=py_0
   - gmp=6.1.2=h6c8ec71_1
   - gmpy2=2.0.8=py37h10f8cd9_2
+  - google-auth=1.22.0=py_0
+  - google-auth-oauthlib=0.4.1=py_2
   - graphite2=1.3.14=h23475e2_0
   - greenlet=0.4.17=py37h7b6447c_0
+  - grpcio=1.31.0=py37hf8bcb03_0
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.0=hb453b48_1
   - h5py=2.10.0=py37h7918eee_0
@@ -133,6 +142,7 @@ dependencies:
   - libllvm10=10.0.1=hbcb73fb_5
   - libllvm9=9.0.1=h4a3c616_1
   - libpng=1.6.37=hbc83047_0
+  - libprotobuf=3.13.0=hd408876_0
   - libsodium=1.0.18=h7b6447c_0
   - libspatialindex=1.9.3=he6710b0_0
   - libssh2=1.9.0=h1ba5d50_1
@@ -148,6 +158,7 @@ dependencies:
   - lxml=4.5.1=py37hefd8a0e_0
   - lz4-c=1.8.1.2=h14c3975_0
   - lzo=2.10=h7b6447c_2
+  - markdown=3.2.2=py37_0
   - markupsafe=1.1.1=py37h14c3975_1
   - matplotlib=3.3.1=0
   - matplotlib-base=3.3.1=py37h817c723_0
@@ -163,6 +174,7 @@ dependencies:
   - mpfr=4.0.2=hb69a4c5_1
   - mpmath=1.1.0=py37_0
   - msgpack-python=1.0.0=py37hfd86e86_1
+  - multidict=4.7.6=py37h7b6447c_1
   - multipledispatch=0.6.0=py37_0
   - nbclient=0.5.0=py_0
   - nbconvert=6.0.6=py37_0
@@ -179,6 +191,7 @@ dependencies:
   - numpy=1.19.1=py37hbc911f0_0
   - numpy-base=1.19.1=py37hfa32c7d_0
   - numpydoc=1.1.0=py_0
+  - oauthlib=3.1.0=py_0
   - olefile=0.46=py37_0
   - openpyxl=3.0.5=py_0
   - openssl=1.1.1h=h7b6447c_0
@@ -208,10 +221,13 @@ dependencies:
   - prometheus_client=0.8.0=py_0
   - prompt-toolkit=3.0.7=py_0
   - prompt_toolkit=3.0.7=0
+  - protobuf=3.13.0=py37hf484d3e_0
   - psutil=5.7.2=py37h7b6447c_0
   - ptyprocess=0.6.0=py37_0
   - py=1.9.0=py_0
   - py-lief=0.10.1=py37h403a769_0
+  - pyasn1=0.4.8=py_0
+  - pyasn1-modules=0.2.8=py_0
   - pycodestyle=2.6.0=py_0
   - pycosat=0.6.3=py37h14c3975_0
   - pycparser=2.19=py37_0
@@ -220,6 +236,7 @@ dependencies:
   - pydocstyle=5.1.1=py_0
   - pyflakes=2.2.0=py_0
   - pygments=2.7.1=py_0
+  - pyjwt=1.7.1=py37_0
   - pylint=2.6.0=py37_0
   - pyodbc=4.0.30=py37he6710b0_0
   - pyopenssl=19.0.0=py37_0
@@ -248,8 +265,10 @@ dependencies:
   - readline=7.0=h7b6447c_5
   - regex=2020.7.14=py37h7b6447c_0
   - requests=2.22.0=py37_0
+  - requests-oauthlib=1.3.0=py_0
   - ripgrep=11.0.2=he32d670_0
   - rope=0.17.0=py_0
+  - rsa=4.6=py_0
   - rtree=0.9.4=py37_1
   - ruamel_yaml=0.15.46=py37h14c3975_0
   - scikit-image=0.16.2=py37h0573a6f_0
@@ -285,6 +304,8 @@ dependencies:
   - sympy=1.6.2=py37_0
   - tbb=2020.3=hfd86e86_0
   - tblib=1.7.0=py_0
+  - tensorboard=2.2.1=pyh532a8cf_0
+  - tensorboard-plugin-wit=1.6.0=py_0
   - terminado=0.8.3=py37_0
   - testpath=0.4.4=py_0
   - threadpoolctl=2.1.0=pyh5ca1d4c_0
@@ -315,6 +336,7 @@ dependencies:
   - xz=5.2.4=h14c3975_4
   - yaml=0.1.7=had09818_2
   - yapf=0.30.0=py_0
+  - yarl=1.5.1=py37h7b6447c_0
   - zeromq=4.3.2=he6710b0_3
   - zict=2.0.0=py_0
   - zipp=3.1.0=py_0
